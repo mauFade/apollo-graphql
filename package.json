@@ -1,0 +1,18 @@
+{
+  "name": "apollo-graphql",
+  "version": "1.0.0",
+  "description": "studies",
+  "main": "index.ts",
+  "repository": "https://github.com/mauFade/apollo-graphql.git",
+  "author": "Mauricio Cardoso <mauricio.cds00@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@apollo/server": "^4.4.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5"
+  }
+}
