@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "description": "studies",
   "main": "index.ts",
+  "type": "module",
   "repository": "https://github.com/mauFade/apollo-graphql.git",
   "author": "Mauricio Cardoso <mauricio.cds00@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "compile": "tsc",
+    "start": "yarn compile && node ./dist/index.js",
+    "dev": "ts-node-dev src/index.ts"
+  },
   "dependencies": {
     "@apollo/server": "^4.4.0",
     "graphql": "^16.6.0"
   },
   "devDependencies": {
     "@types/node": "^18.14.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5"
   }
 }
